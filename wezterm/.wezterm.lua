@@ -41,8 +41,13 @@ config.inactive_pane_hsb = {
 }
 
 
--- Other
+-- tab bar
+config.hide_tab_bar_if_only_one_tab = true
+
+-- Window 
 config.window_decorations = "RESIZE"
+
+-- Other
 config.window_close_confirmation = "AlwaysPrompt"
 config.scrollback_lines = 3000
 
